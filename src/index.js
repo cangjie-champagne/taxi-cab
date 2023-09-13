@@ -1012,7 +1012,7 @@ class TaxiCab {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['field'],
       web: []
     };
     
@@ -1028,11 +1028,11 @@ class TaxiCab {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['middle'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['bow'];
           break;
       }
     }
