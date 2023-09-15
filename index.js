@@ -5,7 +5,7 @@ const program = new Command();
 
 program
   .name(name)
-  .description('Tu keyword cangjie keyboard translator')
+  .description('Tǔ keyword cangjie keyboard translator')
   .version(version);
 
 program.command('parse')
